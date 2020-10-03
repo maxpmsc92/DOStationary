@@ -1,1 +1,1 @@
-This Project is evaluation purpose.
+This Project is for evaluation purpose.
