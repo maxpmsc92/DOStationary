@@ -14,7 +14,7 @@
     @foreach ($vendors as $vendor)
     <div style="width: 300px">
     <div style="outline-style: dotted">
-        Delievery Order
+        Delivery Order
         </br>
         </br>
         Vendor : {{ $vendor->vendor_name }}

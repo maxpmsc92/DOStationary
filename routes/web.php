@@ -14,8 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'App\Http\Controllers\ViewController@artisan');
-    
-
 
 Route::post('/do', 'App\Http\Controllers\DOController@store');
 Route::get('viewdo','App\Http\Controllers\DOViewController@index');

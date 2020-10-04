@@ -20,7 +20,7 @@
                 <th style="text-align:left">Quantity</th>
                 <th style="text-align:left">Vendor</th>
             </tr>
-            @for ($i =1; $i<=5; $i++)
+            @for ($i =0; $i<=4; $i++)
             <tr>
                 <td><select id="product{{ $i }}" name="product{{ $i }}">
                         <option value="sel">Select Product</option>
@@ -31,7 +31,7 @@
                         <option value="Eraser">Eraser</option>
                     </select>
                 </td>
-                <td><input type="text" id="quantity{{ $i }}" value="0" name="quantity{{ $i }}"></td>
+                <td><input type="number" id="quantity{{ $i }}" value="0" name="quantity{{ $i }}"></td>
                 <td><select id="vendor{{ $i }}" name="vendor{{ $i }}">
                         <option value="sel">Select Vendor</option>
                         <option value="A">Vendor A</option>

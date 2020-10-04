@@ -9,9 +9,9 @@ class ViewController extends Controller
 {
     
 
-public function artisan()
-{
-       Artisan::call('migrate:fresh');
-       return view('welcome');
-}
+       public function artisan()
+       {
+              Artisan::call('migrate:fresh');
+              return view('welcome');
+       }
 }
